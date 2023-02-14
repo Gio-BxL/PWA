@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&family=Sofia&display=swap');
+
+/* Base Styles */
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    padding: 20px 50px;
+    background-color: #892be2;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    border: 2px solid #892be2;
+    background-color: transparent;
+    color: #000;
+}
+
+.hidden-btn {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+section {
+    padding: 100px 0;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Top Banner Section  */
+
+/* Navbar */
+
+#navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #892be2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* min-height: 80px; */
+}
+
+/* Navbar Logo Design Starts */
+
+#navbar .logo {
+    position: relative;
+}
+
+#navbar .logo>h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#navbar .logo>h2>a {
+    font-family: 'Sofia', cursive;
+}
+
+#navbar small {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    text-align: right;
+    font-family: 'Rochester', cursive;
+    word-spacing: 10px;
+}
+
+/* Navbar Logo Design Finishes */
+
+/* Navbar Menubar Design Starts */
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    min-height: 30px;
+}
+
+#navbar li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+#navbar li:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#navbar .current {
+    border-bottom: 2px solid #fff;
+}
+
+/* Navbar Menubar Design Finishes */
+
+#navbar input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* Header Style */
+
+#header {
+    background: linear-gradient(rgba(0, 128, 0, 0.322), rgba(0, 0, 0, 0.63)), url("images/travel-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#header .header-text {
+    width: 50%;
+}
+
+#header h4 {
+    font-size: 30px;
+}
+
+#header h1 {
+    font-size: 60px;
+}
+
+#header p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Services Section Style */
+
+#services .services-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#services .services-container .half {
+    width: 50%;
+    text-align: center;
+}
+
+#services .services-container .half img {
+    width: 80%;
+}
+
+
+#services .iconify {
+    font-size: 30px;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Products */
+
+#products .card-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 70px auto;
+}
+
+#products .card-container .card {
+    text-align: center;
+    box-shadow: 0 0 15px gray;
+    padding: 40px 15px;
+    border-radius: 10px;
+}
+
+#products .card-container .card img {
+    margin-top: 20px;
+}
+
+#products .card-container .card p {
+    margin: 30px 0;
+}
+
+/* Contact */
+
+#contact .form-container {
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #80808085;
+    width: 80%;
+    border-radius: 20px;
+    min-height: 275px;
+}
+
+#contact input,
+#contact a {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+#contact .btn:hover {
+    border: 2px solid #892be2;
+    background-color: transparent;
+    color: #000;
+}
+
+/* Footer Section  */
+
+.footer {
+    text-align: center;
+    background-color: #892be2;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .copyright {
+    padding-top: 20px;
+}
+
+.footer div>p>a {
+    margin: 0 20px;
+}
+
+/* Responsive Media Query */
+
+/* Tablet Device */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    h2 {
+        margin-top: 130px;
+    }
+
+    #navbar {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        flex-direction: column;
+        min-height: 200px;
+    }
+
+    #header {
+        padding-top: 160px;
+    }
+
+    #services .tablet {
+        flex-direction: column;
+    }
+
+    #services .services-container .half {
+        width: 90%;
+    }
+
+    #products .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hidden-btn {
+        display: none;
+    }
+
+}
+
+/* Mobile Device */
+
+@media screen and (min-width: 0px) and (max-width: 688px) {
+    section {
+        padding: 100px 0;
+    }
+
+    h2 {
+        margin-top: 130px;
+        font-size: 25px;
+    }
+
+    #navbar {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        flex-direction: column;
+        min-height: 200px;
+    }
+
+    #header {
+        margin-top: 160px;
+    }
+
+    #header h4 {
+        font-size: 20px;
+    }
+
+    #header h1 {
+        font-size: 35px;
+    }
+
+    #header p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    #services .services-container {
+        flex-direction: column;
+    }
+
+    #services .services-container .half {
+        width: 90%;
+    }
+
+    #products .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hidden-btn {
+        display: none;
+    }
+
+}
