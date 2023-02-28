@@ -4,32 +4,32 @@
     "icons": [
 
         {
-            "scr": "Assets.xcassets/196.png",
+            "scr": "Assets.xcassets/AppIcon.appiconset/196.png",
             "sizes": "196x196",
             "type": "image/png"
         },
 
         {
-            "scr": "Assets.xcassets/216.png",
+            "scr": "Assets.xcassets/AppIcon.appiconset/216.png",
             "sizes": "216x216",
             "type": "image/png"
         },
 
         {
-            "scr": "Assets.xcassets/512.png",
+            "scr": "Assets.xcassets/AppIcon.appiconset/512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
 
 
         {
-            "scr": "Assets.xcassets/1024.png",
+            "scr": "Assets.xcassets/AppIcon.appiconset/1024.png",
             "sizes": "1024x1024",
             "type": "image/png"
         },
-        
+
         {
-            "scr": "Assets.xcassets/144.png",
+            "scr": "Assets.xcassets/AppIcon.appiconset/144.png",
             "sizes": "144x144",
             "type": "image/png"
         }
