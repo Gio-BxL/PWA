@@ -26,6 +26,12 @@
             "scr": "Assets.xcassets/1024.png",
             "sizes": "1024x1024",
             "type": "image/png"
+        },
+        
+        {
+            "scr": "Assets.xcassets/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
         }
     ],
     "start_url": "index.html",
