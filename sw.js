@@ -1,6 +1,6 @@
 const STATIC_CACHE = "static";
 const APP_SHELL = [
-    "/",
+    "./",
     "/index.html",
     "/style.css",
     "/main.js",
