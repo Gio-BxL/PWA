@@ -1,35 +1,29 @@
 {
-    "short_name": "Pagina1",
-    "name": "Creando Pagina1",
+    "short_name": "Agencia de viajes",
+    "name": "Agencia de viajes PWA",
     "icons": [
-
         {
-            "scr": "images/196.png",
+            "scr": "images/iconos/96.png",
             "sizes": "196x196",
             "type": "image/png"
         },
-
         {
-            "scr": "images/216.png",
+            "scr": "images/iconos/216.png",
             "sizes": "216x216",
             "type": "image/png"
         },
-
         {
-            "scr": "images/512.png",
+            "scr": "images/iconos/512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
-
-
         {
-            "scr": "images/1024.png",
+            "scr": "images/iconos/1024.png",
             "sizes": "1024x1024",
             "type": "image/png"
         },
-
         {
-            "scr": "images/144.png",
+            "scr": "images/iconos/144.png",
             "sizes": "144x144",
             "type": "image/png"
         }
